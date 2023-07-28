@@ -1,6 +1,6 @@
 import '/styles/main.css';
 import { World } from './world/world';
-import NewsTicker from '../node_modules/news-ticker'
+import NewsTicker from '../node_modules/news-ticker';
 
 // I want to import the interface here too, but I don't know how to do it.
 async function fetchNews() {

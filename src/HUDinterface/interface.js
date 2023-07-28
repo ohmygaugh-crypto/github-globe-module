@@ -1,5 +1,6 @@
 import {searchbar} from './interface/components/searchbar';
 import {NewsTicker} from './interface/components/newsticker';
+import {Feed} from './interface/components/feed';
 
 const nt = new NewsTicker({
     el: document.querySelector('.line'),
@@ -17,6 +18,9 @@ const nt = new NewsTicker({
     }
   })
 
+const feed = new Feed({
+  
+})
 class Interface {
     constructor(container) {
         searchbar(container);
@@ -24,6 +28,9 @@ class Interface {
     constructor(container) {
         nt(container);
 }
+    constructor(container) {
+      feed(container)
+    }
 }
 
 export { Interface };

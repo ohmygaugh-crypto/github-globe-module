@@ -1,0 +1,1 @@
+//this would be cool to not just show news article, but have exterior menu ooptions to see real time satellite view/or a payed snap shot. a mapilarry api to show pins on the map that relate to events in the article
